@@ -8,23 +8,6 @@ import Footer from "./Footer.svelte";
   });
 </script>
 
-<svelte:head>
-  <script
-    type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@voxeet/voxeet-web-sdk/dist/voxeet-sdk.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="https://developer.dolby.io/demos/comms-sdk-web-getting-started/util/dolbyio-auth-helper.js"
-  ></script>
-
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"
-  ></script>
-</svelte:head>
-
 <Header />
 
 <div class="video_container">
@@ -46,7 +29,6 @@ import Footer from "./Footer.svelte";
 </div>
 
 <br />
-
 
 <Footer />
 
