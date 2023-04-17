@@ -1,11 +1,7 @@
 <script>
 import Header from "./Header.svelte";
 import Footer from "./Footer.svelte";
-  import { onMount } from "svelte";
-
-  onMount(async () => {
-    // Code goes here
-  });
+  // API CODE......
 </script>
 
 <Header />
